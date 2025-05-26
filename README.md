@@ -1,6 +1,6 @@
 # Image Captioning with Transformer
 
-This project implements an image captioning system using Transformer architecture. Given an input image, the model generates a natural language description. The model is trained and evaluated on image-caption datasets such as MS-COCO.
+This project implements an image captioning system using Transformer architecture. Given an input image, the model generates a natural language description.
 
 ## 📌 Features
 
@@ -16,11 +16,6 @@ This project implements an image captioning system using Transformer architectur
 - **Decoder**: Transformer decoder processes visual features and generates text.
 - **Training**: Cross-entropy loss between predicted captions and ground truth.
 - **Inference**: Greedy decoding or beam search to generate captions.
-
-## 🗃️ Dataset
-
-- **MS COCO** or a similar dataset with paired images and captions
-- Captions are tokenized and padded using a vocabulary built from training data
 
 ## 🚀 Getting Started
 
@@ -39,7 +34,7 @@ pip install -r requirements.txt
 
 ### 3. Prepare the dataset
 
-Download and preprocess MS-COCO or your own dataset. Make sure the image-caption pairs are organized properly.
+Download and preprocess your own dataset. Make sure the image-caption pairs are organized properly.
 
 ### 4. Run the notebook
 
